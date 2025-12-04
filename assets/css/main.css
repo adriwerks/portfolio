@@ -3209,10 +3209,11 @@ input, select, textarea {
 						top: 0;
 						vertical-align: middle;
 						width: 24px;
+						
 					}
 
 					#header nav a[href="#menu"]:after {
-						-moz-transition: opacity 0.2s ease-in-out;
+						-moz-transition: opacity 0.2 ease-in-out;
 						-webkit-transition: opacity 0.2s ease-in-out;
 						-ms-transition: opacity 0.2s ease-in-out;
 						transition: opacity 0.2s ease-in-out;
@@ -3256,6 +3257,7 @@ input, select, textarea {
 			background-color: transparent;
 			box-shadow: none;
 			position: absolute;
+			visibility: hidden;
 		}
 
 			#header.alt.style1 .logo strong {
