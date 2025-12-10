@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: #01497c;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2938,7 +2938,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #013a63;
 		}
 
 			.spotlights > section > .image {
@@ -3000,7 +3000,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #012a4a;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3114,7 +3114,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: #014f86;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3137,6 +3137,8 @@ input, select, textarea {
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
+			visibility: hidden;
+
 		}
 
 			#header .logo strong {
@@ -3154,6 +3156,7 @@ input, select, textarea {
 
 			#header .logo:hover strong {
 				background-color: #9bf1ff;
+				
 			}
 
 			#header .logo:active strong {
@@ -3221,11 +3224,11 @@ input, select, textarea {
 						opacity: 0;
 						z-index: 1;
 					}
-
+					
 					#header nav a[href="#menu"]:hover:after, #header nav a[href="#menu"]:active:after {
 						opacity: 1;
 					}
-
+					
 					#header nav a[href="#menu"]:last-child {
 						padding-right: 3.875em !important;
 					}
@@ -3257,7 +3260,7 @@ input, select, textarea {
 			background-color: transparent;
 			box-shadow: none;
 			position: absolute;
-			visibility: hidden;
+			
 		}
 
 			#header.alt.style1 .logo strong {
@@ -3412,12 +3415,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #014f86;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.8;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3517,7 +3520,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #banner:after {
-			opacity: 1.0;
+			opacity: 0.75;
 		}
 
 		body.is-preload #banner > .inner {
@@ -3800,7 +3803,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background: rgba(1,58,99, 0.9);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
